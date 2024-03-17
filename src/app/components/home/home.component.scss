@@ -1,0 +1,17 @@
+img {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+button {
+
+  &:hover {
+    background-color: #ffc107!important;
+    color: black!important;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+}

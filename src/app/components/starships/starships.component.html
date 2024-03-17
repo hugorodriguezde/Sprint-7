@@ -1,0 +1,14 @@
+@if (starshipsResults$ | async; as resultObject)
+{
+  <div class="container">
+
+    @for (starship of resultObject.results; track starship.id) {
+      <div class="row" >
+      <div class="col-9 mx-auto mt-3 p-3 rounded starships" (click)="goToStarshipInfo(starship.url)">
+        <p class="text-light">{{ starship.name.toUpperCase()}} </p>
+        <p class="text-light">{{ starship.model }}</p>
+      </div>
+    </div>
+    }
+</div>
+}

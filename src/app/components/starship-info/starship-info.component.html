@@ -1,0 +1,35 @@
+<div class="m-4 mx-auto col-10">
+  <h4 class="pb-2 mb-0 text-light ps-2 pt-2 border border-light border-start-0 border-end-0">STARSHIP</h4>
+</div>
+
+<div class="card mb-3 mx-auto mt-5 starship" style="max-width: 70%;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img [src]="starshipImageUrl" (error)="imgError($event)" class="card-img" alt="Starship image">    </div>
+    @if (starshipsResults$ | async; as starship){
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{starship.name}}</h5>
+        <div class="row ">
+          <div class="col-md-6">
+            <p class="card-text mt-5">
+              <strong>Model:</strong> {{starship.model}}<br>
+              <strong>Cost in Credits:</strong> {{starship.cost_in_credits}}<br>
+              <strong>Atmospheric Speed:</strong> {{starship.max_atmosphering_speed}}
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="card-text mt-5">
+              <strong>Manufacturer:</strong> {{starship.manufacturer}}<br>
+              <strong>Length:</strong> {{starship.length}}<br>
+              <strong>Crew:</strong> {{starship.crew}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+  </div>
+</div>
+<app-pilots [id]="id"></app-pilots>
+<app-movies [id]="id"></app-movies>

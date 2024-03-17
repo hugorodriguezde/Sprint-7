@@ -1,0 +1,16 @@
+.starships {
+  list-style-type: none;
+  padding: 5px 10px;
+  margin: 40px 0;
+  background-color:#252525!important;
+  border-radius: 3px;
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+}
+
+p{
+  background-color:#252525!important;
+}

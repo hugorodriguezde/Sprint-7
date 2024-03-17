@@ -1,0 +1,9 @@
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+  <input type="email" formControlName="email" placeholder="Email">
+  <div class="error-message" *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.invalid">Valid email is required.</div>
+  <input type="password" formControlName="password" placeholder="Password">
+  <div class="error-message" *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid">Password is required.</div>
+  <div class="error-message" *ngIf="loginForm.hasError('serverError')">Email or password incorrect</div>
+  <button type="submit">Login</button>
+  <a class="link" routerLink="/register">Not registered yet?</a>
+</form>

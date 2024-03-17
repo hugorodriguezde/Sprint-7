@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 184.56px;
+  height: 80px;
+  margin-right: auto; // Center the logo
+}
+
+.user-name {
+  min-width: 100px;
+  color: #feda4a!important;
+  font-size: 15px;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+.logout {
+  width: 17px;
+  height:17px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.navbar-nav {
+  display: flex!important;
+  justify-content: center!important; // Horizontally center the items
+  align-items: center!important; // Vertically center the items
+}
+
+.nav-link {
+
+  margin: 0 1rem;
+  &:hover {
+    color:  #feda4a!important; // Change the color on hover
+  }
+}

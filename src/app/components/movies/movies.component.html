@@ -1,0 +1,19 @@
+<div class="background-films m-4">
+  @if(movies){
+    <div class="m-4 mx-auto col-10">
+      <h4 class="pb-2 mb-0 text-light ps-2 pt-2 border border-light border-start-0 border-end-0">MOVIES</h4>
+    </div>
+
+    <div class="d-flex gap-3 col-md-10 mx-auto justify-content-center flex-wrap">
+      @for(movie of movies; track movie.name){
+      <div class="card bg-dark col-10" style="width: 13rem;">
+        <img [src]="movie.imageUrl" class="card-img-top" [alt]="movie.imageUrl">
+        <div class="card-body border-top border-danger border-3">
+          <p class="card-text text-light text-center"><span class="texto-grande">{{movie.title.toUpperCase()}}</span></p>
+          <p class="card-text text-secondary text-center">Episode {{movie.episode_id}}</p>
+        </div>
+      </div>
+      }
+    </div>
+  }
+</div>

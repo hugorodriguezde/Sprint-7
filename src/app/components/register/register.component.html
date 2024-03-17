@@ -1,0 +1,11 @@
+<form [formGroup]="registerForm" (ngSubmit)="register()">
+  <input type="text" formControlName="name" placeholder="Name">
+  <div class="error-message" *ngIf="registerForm.get('name')?.touched && registerForm.get('name')?.invalid">Name must be at least 6 letters long.</div>
+  <input type="email" formControlName="email" placeholder="Email">
+<div class="error-message" *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.invalid && !registerForm.get('email')?.hasError('serverError')">Valid email is required.</div>
+<div class="error-message" *ngIf="registerForm.get('email')?.hasError('serverError')">Email is already registered.</div>
+  <input type="password" formControlName="password" placeholder="Password">
+  <div class="error-message" *ngIf="registerForm.get('password')?.touched && registerForm.get('password')?.invalid">Password must be 6 characters long.</div>
+  <button type="submit">Register</button>
+  <a class="link" routerLink="/login">Already registered? Log in.</a>
+</form>
