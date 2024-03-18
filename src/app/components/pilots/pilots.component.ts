@@ -8,7 +8,6 @@ import { Starship, Pilot } from '../../Interfaces/starships.interface';
   standalone: true,
   imports: [],
   templateUrl: './pilots.component.html',
-  styleUrl: './pilots.component.scss'
 })
 export class PilotsComponent {
   @Input() id: number | null = null;

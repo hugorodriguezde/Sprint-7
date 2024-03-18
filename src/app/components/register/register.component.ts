@@ -52,7 +52,7 @@ export class RegisterComponent implements OnInit {
       ).subscribe(res => {
         console.log(res);
         if (res) {
-          this.router.navigate(['/']); // navigate to homepage
+          this.router.navigate(['/']);
         }
       });
     }

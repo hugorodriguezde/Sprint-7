@@ -8,7 +8,7 @@ import { Starship } from '../../Interfaces/starships.interface';
   standalone: true,
   imports: [],
   templateUrl: './movies.component.html',
-  styleUrl: './movies.component.scss'
+
 })
 export class MoviesComponent implements OnInit {
   getMovies(getMovies: any) {
@@ -31,7 +31,7 @@ export class MoviesComponent implements OnInit {
           this.starshipDetails = details;
           this.movies = [];
 
-          // Fetch each film's details
+
           this.starshipDetails.films.forEach((movieUrl: string) => {
             this.apiService.getMovieByUrl(movieUrl).subscribe((movieDetails: any) => {
               this.movies.push(movieDetails);
