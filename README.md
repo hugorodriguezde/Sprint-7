@@ -2,7 +2,7 @@
 
 ## 💻  Como compilar el proyecto
 
-1. Clona el repositorio [Auth/Login API](https://github.com/hugorodriguezde/Auth-Login-API). y sigue las instrucciones del README para iniciar el server del Back-end.
+1. Clona el repositorio [Auth/Login API](https://github.com/hugorodriguezde/Auth-Login-API) y sigue las instrucciones del README para iniciar el server del Back-end.
 
 2. Clona este repositorio con `git clone https://github.com/hugorodriguezde/Sprint-7.git`.
 3. Dentro del directorio donde se ha clonado el repositorio ejecuta `npm install` en el terminal para instalar todas las dependencias.
