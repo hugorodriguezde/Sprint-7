@@ -1,4 +1,4 @@
-# 🚀IT Academy Barcelona Activa - Sprint 7 - Star Wars 🚀
+# 🚀 Star Wars 🚀
 
 ## 📃 Descripción
 
