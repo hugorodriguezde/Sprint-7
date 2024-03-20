@@ -2,7 +2,7 @@
 
 ## 📃 Descripción
 
-Este proyecto forma parte del Angular Reskilling de IT Academy Barcelona Activa. Es una aplicación frontend desarrollada usando Angular (Versión 17.0.9), TypeScript, HTML/SCSS, Bootstrap e interactúa con una API REST.
+Este proyecto consiste en una aplicación frontend desarrollada usando Angular (Versión 17.0.9), TypeScript, HTML/SCSS, Bootstrap e interactúa con una API REST.
 
 La aplicación proporciona una interfaz interactiva para que los fanáticos de Star Wars exploren varios aspectos del universo de Star Wars. Obtiene datos del servidor back-end y los presenta de una manera fácil para el usuario. Los usuarios pueden navegar a través de diferentes secciones para descubrir más sobre sus personajes, planetas, naves y más.
 
