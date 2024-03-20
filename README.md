@@ -7,6 +7,11 @@ Este proyecto forma parte del Angular Reskilling de IT Academy Barcelona Activa.
 La aplicación proporciona una interfaz interactiva para que los fanáticos de Star Wars exploren varios aspectos del universo de Star Wars. Obtiene datos del servidor back-end y los presenta de una manera fácil para el usuario. Los usuarios pueden navegar a través de diferentes secciones para descubrir más sobre sus personajes, planetas, naves y más.
 
 
+## 🖥 Demostración
+![HomePage](https://github.com/hugorodriguezde/Sprint-7/blob/main/src/assets/img/StarWarsHome.png)
+![Login](https://github.com/hugorodriguezde/Sprint-7/blob/main/src/assets/img/starWarsLogin.png)
+![Starships info](https://github.com/hugorodriguezde/Sprint-7/blob/main/src/assets/img/starWars2.png)
+
 ## 💻  Como compilar el proyecto
 
 1. Clona el repositorio [Auth/Login API](https://github.com/hugorodriguezde/Auth-Login-API) y sigue las instrucciones del README para iniciar el server del Back-end.
