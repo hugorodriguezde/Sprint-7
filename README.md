@@ -9,7 +9,11 @@ La aplicación proporciona una interfaz interactiva para que los fanáticos de S
 
 ## 🖥 Demostración
 ![HomePage](https://github.com/hugorodriguezde/Sprint-7/blob/main/src/assets/img/StarWarsHome.png)
+
+
 ![Login](https://github.com/hugorodriguezde/Sprint-7/blob/main/src/assets/img/starWarsLogin.png)
+
+
 ![Starships info](https://github.com/hugorodriguezde/Sprint-7/blob/main/src/assets/img/starWars2.png)
 
 ## 💻  Como compilar el proyecto
